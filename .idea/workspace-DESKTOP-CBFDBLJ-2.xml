@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ad0a61c5-96c0-4bef-8391-0f6e6465c56b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1546206412">
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Training/Record.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="e#0#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="-7" />
+    <option name="width" value="1294" />
+    <option name="height" value="1447" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ML_Nick" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ML_Nick" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ML_Nick" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ML_Nick" type="462c0819:PsiDirectoryNode" />
+              <item name="Training" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Record" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ML_Nick" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Training" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Training/Record.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Record" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fd5f127c-8d88-43ad-a524-5a4a42600036" name="Default Changelist" comment="" />
+      <created>1537304574999</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1537304574999</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="0" width="1294" height="1447" extended-state="1" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14649682" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32901752" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.108149275" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32980332" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32977912" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14671578" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32901752" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.17060168" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32980332" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32977912" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3/threading.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="157" column="8" selection-start-line="157" selection-start-column="8" selection-end-line="157" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/threading.py" />
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/IPython/core/interactiveshell.py" />
+    <entry file="file://$PROJECT_DIR$/Training/Data/Lucian/00002/input.txt" />
+    <entry file="file://$PROJECT_DIR$/Training/Data/Lucian/00001/input.txt" />
+    <entry file="file://$PROJECT_DIR$/Training/Data/Lucian/00001/0000000058.jpg" />
+    <entry file="file://$PROJECT_DIR$/Training/Data/Lucian/00001/0000000061.jpg" />
+    <entry file="file://$PROJECT_DIR$/Training/Data/Lucian/00001/0000000055.jpg" />
+    <entry file="file://$PROJECT_DIR$/Training/Data/Lucian/00001/0000000040.jpg" />
+    <entry file="file://$PROJECT_DIR$/Training/Data/Lucian/00001/0000000031.jpg" />
+    <entry file="file://$PROJECT_DIR$/Training/Data/Lucian/00001/0000000041.jpg" />
+    <entry file="file://$PROJECT_DIR$/Training/Data/Lucian/00001/0000000050.jpg" />
+    <entry file="file://$PROJECT_DIR$/Training/Data/Lucian/00001/0000000057.jpg" />
+    <entry file="file://$PROJECT_DIR$/Training/Data/Lucian/00001/0000000047.jpg" />
+    <entry file="file://$PROJECT_DIR$/Training/Data/Lucian/00001/0000000036.jpg" />
+    <entry file="file://$PROJECT_DIR$/Training/Data/Lucian/00001/0000000049.jpg" />
+    <entry file="file://$PROJECT_DIR$/Training/Data/Lucian/00001/0000000048.jpg" />
+    <entry file="file://$PROJECT_DIR$/Training/Data/Lucian/00001/0000000042.jpg" />
+    <entry file="file://$PROJECT_DIR$/Training/Data/Lucian/00001/0000000033.jpg" />
+    <entry file="file://$PROJECT_DIR$/Training/Data/Lucian/00001/0000000030.jpg" />
+    <entry file="file://$PROJECT_DIR$/Training/Data/Lucian/00001/0000000043.jpg" />
+    <entry file="file://$PROJECT_DIR$/Training/Data/Lucian/00001/0000000054.jpg" />
+    <entry file="file://$PROJECT_DIR$/Training/Data/Lucian/00001/0000000060.jpg" />
+    <entry file="file://$PROJECT_DIR$/Training/Data/Lucian/00001/0000000065.jpg" />
+    <entry file="file://$PROJECT_DIR$/Training/Data/Lucian/00001/0000000067.jpg" />
+    <entry file="file://$PROJECT_DIR$/Training/Data/Lucian/00001/0000000000.jpg" />
+    <entry file="file://$PROJECT_DIR$/Training/Data/Lucian/00001/0000000012.jpg" />
+    <entry file="file://$PROJECT_DIR$/Training/Data/Lucian/00001/0000000009.jpg" />
+    <entry file="file://$PROJECT_DIR$/Training/Data/Lucian/00003/0000000640.jpg" />
+    <entry file="file://$PROJECT_DIR$/Training/Data/Lucian/00003/0000000635.jpg" />
+    <entry file="file://$PROJECT_DIR$/Training/Data/Lucian/00003/0000000629.jpg" />
+    <entry file="file://$PROJECT_DIR$/Training/Data/Lucian/00003/0000000623.jpg" />
+    <entry file="file://$PROJECT_DIR$/Training/Data/Lucian/00003/0000000618.jpg" />
+    <entry file="file://$PROJECT_DIR$/Training/Data/Lucian/00003/0000000613.jpg" />
+    <entry file="file://$PROJECT_DIR$/Training/Data/Lucian/00003/0000000610.jpg" />
+    <entry file="file://$PROJECT_DIR$/Training/Data/Lucian/00003/0000000587.jpg" />
+    <entry file="file://$PROJECT_DIR$/Training/Data/Lucian/00003/0000000559.jpg" />
+    <entry file="file://$PROJECT_DIR$/Training/Data/Lucian/00004/0000000012.jpg" />
+    <entry file="file://$PROJECT_DIR$/Training/Data/Lucian/00003/0000000002.jpg" />
+    <entry file="file://$PROJECT_DIR$/Training/Data/Lucian/00002/0000000002.jpg" />
+    <entry file="file://$PROJECT_DIR$/Training/Data/Lucian/00002/0000000003.jpg" />
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/PIL/ImageGrab.py" />
+    <entry file="file://$PROJECT_DIR$/../../../../../ProgramFiles/Anaconda3/Lib/zipapp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Training/Record.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

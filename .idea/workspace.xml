@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/TestingShit.py" line="100" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fd5f127c-8d88-43ad-a524-5a4a42600036" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="740492500">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.2" value="3" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="jpg" value="36" />
+          <entry key="py" value="7" />
+          <entry key="pyi" value="1" />
+          <entry key="txt" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="Python Console" value="263" />
+          <entry key="dummy" value="5" />
+          <entry key="py" value="7411" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="5" />
+          <entry key="Python" value="7674" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Image" value="36" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Python" value="7" />
+          <entry key="PythonStub" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="1546206412">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="14" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.2" value="7" />
+          <entry key="project.open.time.3" value="7" />
+          <entry key="project.open.time.4" value="2" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="18" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSV" value="2" />
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="Image" value="11" />
+          <entry key="PLAIN_TEXT" value="10" />
+          <entry key="Python" value="47" />
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="csv" value="10" />
+          <entry key="iml" value="1" />
+          <entry key="jpg" value="3" />
+          <entry key="png" value="8" />
+          <entry key="py" value="47" />
+          <entry key="txt" value="2" />
+          <entry key="xml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="Python Console" value="269" />
+          <entry key="csv" value="4" />
+          <entry key="dummy" value="86" />
+          <entry key="py" value="24189" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSV" value="1" />
+          <entry key="PLAIN_TEXT" value="89" />
+          <entry key="Python" value="24458" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages" />
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Training/Record.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="235">
+              <caret line="223" column="31" selection-start-line="223" selection-start-column="31" selection-end-line="223" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+                <element signature="e#1263#1482#0" />
+                <marker date="1538426792665" expanded="false" signature="4208:4828" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestingShit.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="589">
+              <caret line="97" column="40" selection-start-line="97" selection-start-column="40" selection-end-line="97" selection-end-column="40" />
+              <folding>
+                <element signature="e#252#943#0" />
+                <element signature="e#252#349#1" />
+                <element signature="e#390#926#0" />
+                <element signature="e#708#902#0" />
+                <element signature="e#741#801#0" />
+                <element signature="e#836#902#0" />
+                <element signature="e#969#1332#0" />
+                <element signature="e#997#1061#0" />
+                <element signature="e#1360#1504#0" />
+                <element signature="e#1531#1862#0" />
+                <element signature="e#1890#2277#0" />
+                <element signature="e#1898#1950#0" />
+                <element signature="e#1975#2277#0" />
+                <element signature="e#2011#2253#0" />
+                <element signature="e#2060#2253#0" />
+                <element signature="e#2095#2197#0" />
+                <element signature="e#2846#3023#0" />
+                <element signature="e#3398#3537#0" />
+                <element signature="e#3566#3914#0" />
+                <element signature="e#3598#3914#0" />
+                <element signature="e#3640#3886#0" />
+                <element signature="e#3693#3886#0" />
+                <element signature="e#3949#4176#0" />
+                <element signature="e#4007#4153#0" />
+                <element signature="e#4041#4153#0" />
+                <marker date="1538425358555" expanded="true" signature="4177:4180" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Training/UsableEvents.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="811">
+              <caret line="57" column="40" lean-forward="true" selection-start-line="57" selection-start-column="40" selection-end-line="57" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>grabber</find>
+      <find>mouseInp</find>
+      <find>save</find>
+      <find>encode</find>
+      <find>thread</find>
+      <find>'0000000336']</find>
+      <find>'0000005974']</find>
+      <find>544.3139675</find>
+      <find>enter</find>
+      <find>lock</find>
+      <find>releaseInt</find>
+      <find>start</find>
+      <find>screen</find>
+      <find>wewe</find>
+      <find>isal</find>
+      <find>depressed_keys</find>
+      <find>threading.</find>
+      <find>Lock</find>
+      <find>self.lock</find>
+      <find>event.key</find>
+      <find>todo</find>
+      <find>print(</find>
+      <find>__name</find>
+      <find>empty</find>
+      <find>getInput</find>
+      <find>self.</find>
+      <find>writer</find>
+      <find>screenPan</find>
+      <find>csv</find>
+      <find>print</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Training/trainableData.py" />
+        <option value="$PROJECT_DIR$/Training/tempReadInput.py" />
+        <option value="$PROJECT_DIR$/Training/filterRawInputData.py" />
+        <option value="$PROJECT_DIR$/Training/filterRawInputDataTest.py" />
+        <option value="$PROJECT_DIR$/Training/Record2.py" />
+        <option value="$PROJECT_DIR$/eggs.csv" />
+        <option value="$PROJECT_DIR$/TestingShit.py" />
+        <option value="$PROJECT_DIR$/Training/Record.py" />
+        <option value="$PROJECT_DIR$/Training/UsableEvents.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="width" value="1294" />
+    <option name="height" value="1447" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ML_Nick" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ML_Nick" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ML_Nick" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ML_Nick" type="462c0819:PsiDirectoryNode" />
+              <item name="Training" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$USER_HOME$/Anaconda3/python.exe" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.UsableEvents">
+    <configuration name="Record" type="PythonConfigurationType" factoryName="Python">
+      <module name="ML_Nick" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Training" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Training/Record.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestingShit" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ML_Nick" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TestingShit.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="UsableEvents" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ML_Nick" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Training" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Training/UsableEvents.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="filterRawInputDataTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ML_Nick" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Training" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Training/filterRawInputDataTest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tempReadInput" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ML_Nick" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Training" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Training/tempReadInput.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="trainableData" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ML_Nick" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Training" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\rambo\OneDrive\Documents\Programming\Python\PycharmProjects\ML_Nick\Training\filterRawInputDataTest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.Record" />
+      <item itemvalue="Python.filterRawInputDataTest" />
+      <item itemvalue="Python.trainableData" />
+      <item itemvalue="Python.tempReadInput" />
+      <item itemvalue="Python.TestingShit" />
+      <item itemvalue="Python.UsableEvents" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.UsableEvents" />
+        <item itemvalue="Python.TestingShit" />
+        <item itemvalue="Python.tempReadInput" />
+        <item itemvalue="Python.trainableData" />
+        <item itemvalue="Python.filterRawInputDataTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fd5f127c-8d88-43ad-a524-5a4a42600036" name="Default Changelist" comment="" />
+      <created>1537304574999</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1537304574999</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="2576" height="1456" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24980299" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32977912" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.19062027" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39939487" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32829046" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Data View" order="3" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Training/Data/Lucian/00003/0000000629.jpg" />
+    <entry file="file://$PROJECT_DIR$/Training/Data/Lucian/00003/0000000623.jpg" />
+    <entry file="file://$PROJECT_DIR$/Training/Data/Lucian/00003/0000000618.jpg" />
+    <entry file="file://$PROJECT_DIR$/Training/Data/Lucian/00003/0000000613.jpg" />
+    <entry file="file://$PROJECT_DIR$/Training/Data/Lucian/00003/0000000610.jpg" />
+    <entry file="file://$PROJECT_DIR$/Training/Data/Lucian/00003/0000000587.jpg" />
+    <entry file="file://$PROJECT_DIR$/Training/Data/Lucian/00003/0000000559.jpg" />
+    <entry file="file://$PROJECT_DIR$/Training/Data/Lucian/00004/0000000012.jpg" />
+    <entry file="file://$PROJECT_DIR$/Training/Data/Lucian/00003/0000000002.jpg" />
+    <entry file="file://$PROJECT_DIR$/Training/Data/Lucian/00002/0000000002.jpg" />
+    <entry file="file://$PROJECT_DIR$/Training/Data/Lucian/00002/0000000003.jpg" />
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/PIL/ImageGrab.py" />
+    <entry file="file://$PROJECT_DIR$/Training/Data/Lucian/00001/0000000000.jpg" />
+    <entry file="file://$PROJECT_DIR$/Training/Data/Lucian/00001/0000000086.jpg" />
+    <entry file="file://$PROJECT_DIR$/Training/Data/Lucian/00004/0000000004.jpg" />
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/numpy/lib/npyio.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="1324" selection-start-line="1324" selection-end-line="1324" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Training/test.txt" />
+    <entry file="file://$PROJECT_DIR$/Training/test.csv" />
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/mss/tools.py" />
+    <entry file="file://$PROJECT_DIR$/Training/0000000000.jpg" />
+    <entry file="file://$PROJECT_DIR$/Training/Data/Lucian/00007/0000000001.png" />
+    <entry file="file://$PROJECT_DIR$/Training/Data/Lucian/00002/0000000000.csv" />
+    <entry file="file://$PROJECT_DIR$/Training/Data/Lucian/00002/0000000001.csv" />
+    <entry file="file://$PROJECT_DIR$/Training/Data/Lucian/000010/0000000000.png" />
+    <entry file="file://$PROJECT_DIR$/Training/Data/Lucian/000010/0000000005.png" />
+    <entry file="file://$PROJECT_DIR$/Training/Data/Lucian/000010/0000000009.png" />
+    <entry file="file://$PROJECT_DIR$/Training/Data/Lucian/00001/0000000001.png" />
+    <entry file="file://$PROJECT_DIR$/Training/Data/Lucian/00001/0000000031.png" />
+    <entry file="file://$PROJECT_DIR$/Training/Data/test.csv" />
+    <entry file="file://$PROJECT_DIR$/Training/Data/Lucian/00001/0000000000.png" />
+    <entry file="file://$PROJECT_DIR$/Training/Data/Lucian/00002/0000000000.png" />
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/PIL/ImageFile.py" />
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/PIL/JpegImagePlugin.py" />
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/PIL/Image.py" />
+    <entry file="file://$PROJECT_DIR$/Training/tempReadInput.py" />
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/minpy/array.py" />
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/mxnet/ndarray/utils.py" />
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/minpy/__init__.py" />
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/minpy/primitive.py" />
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/mxnet/ndarray/ndarray.py" />
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/mxnet/base.py" />
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/h5py/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/mss/windows.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-116">
+          <caret line="145" column="17" selection-start-line="145" selection-start-column="17" selection-end-line="145" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Training/Record2.py" />
+    <entry file="file://$PROJECT_DIR$/Training/filterRawInputDataTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="678">
+          <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/threading.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="910">
+          <caret line="915" selection-start-line="915" selection-end-line="915" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestingShit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="97" column="40" selection-start-line="97" selection-start-column="40" selection-end-line="97" selection-end-column="40" />
+          <folding>
+            <element signature="e#252#943#0" />
+            <element signature="e#252#349#1" />
+            <element signature="e#390#926#0" />
+            <element signature="e#708#902#0" />
+            <element signature="e#741#801#0" />
+            <element signature="e#836#902#0" />
+            <element signature="e#969#1332#0" />
+            <element signature="e#997#1061#0" />
+            <element signature="e#1360#1504#0" />
+            <element signature="e#1531#1862#0" />
+            <element signature="e#1890#2277#0" />
+            <element signature="e#1898#1950#0" />
+            <element signature="e#1975#2277#0" />
+            <element signature="e#2011#2253#0" />
+            <element signature="e#2060#2253#0" />
+            <element signature="e#2095#2197#0" />
+            <element signature="e#2846#3023#0" />
+            <element signature="e#3398#3537#0" />
+            <element signature="e#3566#3914#0" />
+            <element signature="e#3598#3914#0" />
+            <element signature="e#3640#3886#0" />
+            <element signature="e#3693#3886#0" />
+            <element signature="e#3949#4176#0" />
+            <element signature="e#4007#4153#0" />
+            <element signature="e#4041#4153#0" />
+            <marker date="1538425358555" expanded="true" signature="4177:4180" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Training/Record.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="223" column="31" selection-start-line="223" selection-start-column="31" selection-end-line="223" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+            <element signature="e#1263#1482#0" />
+            <marker date="1538426792665" expanded="false" signature="4208:4828" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Training/UsableEvents.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="811">
+          <caret line="57" column="40" lean-forward="true" selection-start-line="57" selection-start-column="40" selection-end-line="57" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
