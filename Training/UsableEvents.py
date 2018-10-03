@@ -47,7 +47,6 @@ def all_data(frame_path, screenPan_path, userInput_path):
                 for cell in row:
                     if "." in cell:
                         cell = float(cell)
-                        cell = int(cell)
                     formatedRow.append(cell)
                 screenPanData.append(formatedRow)
         screenPanData = sorted(screenPanData, key=lambda x: x[3])
@@ -74,8 +73,31 @@ def all_data(frame_path, screenPan_path, userInput_path):
 
     return (frameHeader, frameData), (screenPanHeader, screenPanData), (userInputHeader, userInputData)
 
+class Frame(object):
+    @staticmethod
+    def getFrame(click_time, frameData):
+        i = 0
+        frameData = frameData[1]
+        while i <= len(frameData) - 2:
+            frame_time = frameData[i][1]
+            next_frame_time = frameData[i + 1][1]
+            frame_number = frameData[i][0]
+            if click_time > frame_time and click_time < next_frame_time:
+                return frame_number
+            i += 1
+
+    @staticmethod
+    def getFramesBetweenTwo(start, end, frameData):
+        frameData = frameData[1]
+        frames = []
+        for frameIndex, frameTime in frameData:
+            if frameTime > start and frameTime < end:
+                frames.append(frameIndex)
+        return frames
+
+
 class Click(object):
-    def __init__(self, row = None):
+    def __init__(self, row=None):
         self.raw_data = row
         if self.raw_data is not None:
             self.event = row[0]
@@ -90,39 +112,58 @@ class Click(object):
                 self.is_held = False
 
             self.frames = []
-
     def generate_clicks(self, userInputData, frameData):
         """
         will generate clicks()
         :return: list() (Click, Click,...)
         """
+
+        def setFrames(events, frameData):
+            for event in events:
+                event.frames.append(Frame.getFrame(event.start_time, frameData))
+                if event.is_held:
+                    frames = Frame.getFramesBetweenTwo(event.start_time, event.end_time, frameData)
+                    event.frames = frames
+
         clicks = []
         for press_event, press_x, press_y, press_time, release_event, release_x, release_y, release_time in userInputData[1]:
             row = press_event, press_x, press_y, press_time, release_event, release_x, release_y, release_time
             clicks.append(Click(row))
 
-        i = 0
-        frameData = frameData[1]
-        while i <= len(frameData)-2:
-            frame_time = frameData[i][1]
-            next_frame_time = frameData[i+1][1]
-            frame_number = frameData[i][0]
-            next_frame_Number = frameData[i+1][1]
-            for click in clicks:
-                if not click.is_held:
-                    if click.start_time > frame_time and click.start_time < next_frame_time:
-                        click.frames.append(frame_number)
-                else:
-                    pass
-                    #todo if the key is heald
-                    # if its heald i need to know the press frame and the release frame. (click.start_time, click.end_time)
-            i += 1
+        setFrames(clicks, frameData)
         return clicks
 
 
+class ScreenPan(object):
+    def __init__(self, row=None):
+        if row is not None:
+            self.raw_data = row
+            self.event = row[0]
+            self.start_time = row[3]
+            self.mouse_position = row[1], row[2]
+            self.frames = []
+    def generate_pans(self,panData, frameData):
+
+        def setFrames(events, frameData):
+            formatedEvents = []
+            i = 0
+            while i < len(events) - 2:
+                event = events[i]
+                next_event = events[i+1]
+                event.frames.append(Frame.getFrame(event.start_time, frameData))
+                i += 1
+
+        pans = []
+        for event, mouse_x, mouse_y, panTime in panData[1]:
+            row = event, mouse_x, mouse_y, panTime
+            pans.append(ScreenPan(row))
+        setFrames(pans, frameData)
+        return pans
+
 if __name__ == "__main__":
-    frame, screen, userInput = all_data("c:/Test/00001/frame.csv", "c:/Test/00001/ScreenPan.csv", "c:/Test/00001/input.csv")
-    clicks = Click().generate_clicks(userInput,frame)
-    for click in clicks:
-        print(click.frames)
-        print(click.start_time)
+    frame, screen, userInput = all_data("c:/Test/00004/frame.csv", "c:/Test/00004/ScreenPan.csv", "c:/Test/00004/input.csv")
+    clicks = Click().generate_clicks(userInput, frame)
+    pans = ScreenPan().generate_pans(screen, frame)
+    for pan in pans:
+        print(pan.frames)
+

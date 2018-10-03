@@ -18,8 +18,7 @@ RECORDED_KEYS = { 0x01: "LeftDown", 0x02 : "RightDown",
 START_REC_KEY = 0x79
 END_REC_KEY = 0x7A
 
-# todo add ability top pan the screen
-
+HOLD_TIME = .50
 
 class PressReleaseListener(threading.Thread):
     def __init__(self, event, mouse_position, press_time):
@@ -61,7 +60,7 @@ class ScreenPanListener(threading.Thread):
                 self.upPan.append(("UpPan", mouse_position, time.time()))
             if mouse_position[1] >= SCREEN_CAPTURE_BBOX[3]-1:
                 self.downPan.append(("DownPan", mouse_position, time.time()))
-            time.sleep(.1)
+            time.sleep(.01)
 
     def is_empty(self):
         if self.leftPan:
