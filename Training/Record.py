@@ -18,8 +18,6 @@ RECORDED_KEYS = { 0x01: "LeftDown", 0x02 : "RightDown",
 START_REC_KEY = 0x79
 END_REC_KEY = 0x7A
 
-HOLD_TIME = .50
-
 class PressReleaseListener(threading.Thread):
     def __init__(self, event, mouse_position, press_time):
         threading.Thread.__init__(self)

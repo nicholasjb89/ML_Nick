@@ -1,16 +1,12 @@
 import csv
-SCREEN_CAPTURE_BBOX = (0, 0, 2560, 1440)
-TIME_BLOCK = .15
+
+HOLD_TIME = .15
 RECORDED_KEYS = { 0x01: "LeftDown", 0x02 : "RightDown",
                   0x51: "Q",0x57: "W",0x45: "E",0x52: "R",
                   0x31: "1",0x32: "2",0x33: "3",0x34: "4",0x35: "5",0x36: "6",0x37: "7",
                   0x46: "F", 0x47: "G", 0x11: "ctrl", 0x79: "f10", 0x7A: "f11", 0x41: "A",
                   0x20: "Space"}
 
-START_REC_KEY = 0x79
-END_REC_KEY = 0x7A
-
-HOLD_TIME = .50
 
 def all_data(frame_path, screenPan_path, userInput_path):
     # frame
@@ -71,7 +67,34 @@ def all_data(frame_path, screenPan_path, userInput_path):
                 userInputData.append(formatedRow)
         userInputData = sorted(userInputData, key=lambda x: x[3])
 
-    return (frameHeader, frameData), (screenPanHeader, screenPanData), (userInputHeader, userInputData)
+    return [[frameHeader, frameData], [screenPanHeader, screenPanData], [userInputHeader, userInputData]]
+
+def default_convert(frame_path, screen_path, userInput_path):
+    frame, screen, userInput = all_data(frame_path, screen_path, userInput_path)
+    clicks = Click().generate_clicks(userInput, frame)
+    print("Click Lenght: ", len(clicks))
+    pans = ScreenPan().generate_pans(screen, frame)
+
+    # A Click
+    i = 0
+    clickA = 0
+    aClick = 0
+    not_good_click = []
+    while i < len(clicks)-1:
+        click = clicks[i]
+        next_click = clicks[i+1]
+        if RECORDED_KEYS[click.event] == "A":
+            if RECORDED_KEYS[next_click.event] != "LeftDown":
+                not_good_click.append(click)
+                clickA += 1
+            else:
+                aClick += 1
+        i += 1
+    for click in not_good_click:
+        clicks.remove(click)
+    print("Click A:", clickA, ", A Click:", aClick)
+    print("New Click Length: ", len(clicks))
+
 
 class Frame(object):
     @staticmethod
@@ -121,9 +144,7 @@ class Click(object):
         def setFrames(events, frameData):
             for event in events:
                 event.frames.append(Frame.getFrame(event.start_time, frameData))
-                if event.is_held:
-                    frames = Frame.getFramesBetweenTwo(event.start_time, event.end_time, frameData)
-                    event.frames = frames
+
 
         clicks = []
         for press_event, press_x, press_y, press_time, release_event, release_x, release_y, release_time in userInputData[1]:
@@ -141,15 +162,16 @@ class ScreenPan(object):
             self.event = row[0]
             self.start_time = row[3]
             self.mouse_position = row[1], row[2]
+
             self.frames = []
+            self.end_time = None
     def generate_pans(self,panData, frameData):
 
         def setFrames(events, frameData):
             formatedEvents = []
             i = 0
-            while i < len(events) - 2:
+            while i < len(events):
                 event = events[i]
-                next_event = events[i+1]
                 event.frames.append(Frame.getFrame(event.start_time, frameData))
                 i += 1
 
@@ -158,12 +180,26 @@ class ScreenPan(object):
             row = event, mouse_x, mouse_y, panTime
             pans.append(ScreenPan(row))
         setFrames(pans, frameData)
-        return pans
+
+        formated_pans = []
+
+        i = 0
+        saved_pan = pans[0]
+        while i < len(pans)-1:
+            current_pan = pans[i]
+            next_pan = pans[i+1]
+            if next_pan.event == next_pan.event:
+                if next_pan.frames[0] != current_pan.frames[0]:
+                    saved_pan.end_time = current_pan.start_time
+                    formated_pans.append(saved_pan)
+                    saved_pan = next_pan
+            else:
+                saved_pan.end_time = current_pan.start_time
+                formated_pans.append(saved_pan)
+                saved_pan = next_pan
+
+            i += 1
+        return formated_pans
 
 if __name__ == "__main__":
-    frame, screen, userInput = all_data("c:/Test/00004/frame.csv", "c:/Test/00004/ScreenPan.csv", "c:/Test/00004/input.csv")
-    clicks = Click().generate_clicks(userInput, frame)
-    pans = ScreenPan().generate_pans(screen, frame)
-    for pan in pans:
-        print(pan.frames)
-
+    default_convert("c:/Test/00002/frame.csv", "c:/Test/00002/ScreenPan.csv", "c:/Test/00002/input.csv")
