@@ -1,16 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/TestingShit.py" line="100" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="fd5f127c-8d88-43ad-a524-5a4a42600036" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Training/quick_scripts.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingShit.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestingShit.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Training/DataBase.py" beforeDir="false" afterPath="$PROJECT_DIR$/Training/DataBase.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Training/DataBase/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Training/Game_images/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Training/DataBase/manager.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad output example.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eggs.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Training/Game_images/E.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Training/Game_images/Flash.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Training/Game_images/Q.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Training/Game_images/R.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Training/Game_images/W.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Training/Game_images/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Training/Game_images/ignite.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Training/Lucian00001.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Training/Lucian00002.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Training/Record.py" beforeDir="false" afterPath="$PROJECT_DIR$/Training/Record.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Training/Test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Training/UsableEvents.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Training/filterRawInputDataTest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Usable Events.docx" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,27 +31,12 @@
     <window id="1">
       <content type="file-editors">
         <state>
-          <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <leaf>
             <file pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/../League App/tables.py">
+              <entry file="file://$PROJECT_DIR$/TestingShit.py">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="810">
-                    <caret line="107" column="21" lean-forward="true" selection-start-line="107" selection-start-column="21" selection-end-line="107" selection-end-column="21" />
-                    <folding>
-                      <element signature="e#189#2691#0" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file pinned="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/../League App/addSummoner.py">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="999">
-                    <caret line="38" column="25" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
-                    <folding>
-                      <element signature="e#0#26#0" expanded="true" />
-                    </folding>
+                  <state relative-caret-position="143">
+                    <caret line="94" selection-start-line="94" selection-end-line="95" selection-end-column="6" />
                   </state>
                 </provider>
               </entry>
@@ -98,13 +92,13 @@
     <session id="1546206412">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="24" />
+          <entry key="project.closed" value="29" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.2" value="8" />
-          <entry key="project.open.time.3" value="14" />
-          <entry key="project.open.time.4" value="5" />
+          <entry key="project.open.time.3" value="16" />
+          <entry key="project.open.time.4" value="8" />
           <entry key="project.open.time.6" value="2" />
-          <entry key="project.opened" value="31" />
+          <entry key="project.opened" value="36" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -112,38 +106,41 @@
           <entry key="CSV" value="2" />
           <entry key="IDEA_MODULE" value="1" />
           <entry key="Image" value="11" />
+          <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="10" />
-          <entry key="Python" value="63" />
-          <entry key="SQL" value="6" />
+          <entry key="Python" value="73" />
+          <entry key="SQL" value="7" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="csv" value="10" />
-          <entry key="db" value="6" />
+          <entry key="db" value="7" />
           <entry key="iml" value="1" />
           <entry key="jpg" value="3" />
+          <entry key="md" value="1" />
           <entry key="png" value="8" />
-          <entry key="py" value="63" />
+          <entry key="py" value="73" />
           <entry key="txt" value="2" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="269" />
+          <entry key="Python Console" value="329" />
           <entry key="csv" value="4" />
           <entry key="db" value="2" />
           <entry key="dummy" value="132" />
-          <entry key="py" value="37359" />
+          <entry key="py" value="47313" />
+          <entry key="txt" value="44" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSV" value="1" />
-          <entry key="PLAIN_TEXT" value="135" />
-          <entry key="Python" value="37628" />
+          <entry key="PLAIN_TEXT" value="179" />
+          <entry key="Python" value="47642" />
           <entry key="SQL" value="2" />
         </counts>
       </usages-collector>
@@ -153,58 +150,64 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Training/UsableEvents.py">
+        <entry file="file://$PROJECT_DIR$/Training/Record.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="71" column="53" selection-start-line="71" selection-start-column="53" selection-end-line="71" selection-end-column="53" />
+            <state relative-caret-position="225">
+              <caret line="178" selection-start-line="178" selection-end-line="178" />
               <folding>
-                <element signature="e#509#1088#0" />
-                <element signature="e#618#1030#0" />
-                <element signature="e#654#706#0" />
-                <element signature="e#741#1030#0" />
-                <element signature="e#811#984#0" />
-                <element signature="e#1196#1722#0" />
-                <element signature="e#1306#1656#0" />
-                <element signature="e#1342#1398#0" />
-                <element signature="e#1433#1656#0" />
-                <element signature="e#1503#1606#0" />
-                <element signature="e#1833#2428#0" />
-                <element signature="e#1945#2362#0" />
-                <element signature="e#1977#2034#0" />
-                <element signature="e#2069#2362#0" />
-                <element signature="e#2139#2312#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestingShit.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="42" selection-start-line="42" selection-end-line="42" />
-              <folding>
-                <element signature="e#0#48#0" expanded="true" />
-                <element signature="e#252#943#0" />
-                <element signature="e#252#349#1" />
-                <element signature="e#390#926#0" />
-                <element signature="e#708#902#0" />
-                <element signature="e#741#801#0" />
-                <element signature="e#836#902#0" />
-                <element signature="e#969#1332#0" />
-                <element signature="e#997#1061#0" />
-                <element signature="e#1360#1504#0" />
-                <element signature="e#1531#1862#0" />
-                <element signature="e#1890#2277#0" />
-                <element signature="e#1898#1950#0" />
-                <element signature="e#1975#2277#0" />
-                <element signature="e#2011#2253#0" />
-                <element signature="e#2060#2253#0" />
-                <element signature="e#2095#2197#0" />
-                <element signature="e#2298#2743#0" />
-                <element signature="e#2320#2511#0" />
-                <element signature="e#2786#3325#0" />
-                <element signature="e#3371#4177#0" />
+                <element signature="e#0#25#0" expanded="true" />
+                <element signature="e#600#1145#0" />
+                <element signature="e#663#846#0" />
+                <element signature="e#875#1145#0" />
+                <element signature="e#899#1145#0" />
+                <element signature="e#961#1117#0" />
+                <element signature="e#1195#2395#0" />
+                <element signature="e#1223#1442#0" />
+                <element signature="e#1471#2127#0" />
+                <element signature="e#1504#2127#0" />
+                <element signature="e#2161#2395#0" />
+                <element signature="e#2441#3807#0" />
+                <element signature="e#2484#2706#0" />
+                <element signature="e#2735#3326#0" />
+                <element signature="e#2768#3326#0" />
+                <element signature="e#2884#3167#0" />
+                <element signature="e#2937#3167#0" />
+                <element signature="e#3362#3807#0" />
+                <element signature="e#3434#3596#0" />
+                <element signature="e#3468#3596#0" />
+                <element signature="e#3658#3784#0" />
+                <element signature="e#3703#3784#0" />
+                <element signature="e#3849#4894#0" />
+                <element signature="e#3877#4149#0" />
+                <element signature="e#3877#3967#1" />
+                <element signature="e#4178#4783#0" />
+                <element signature="e#4295#4783#0" />
+                <element signature="e#4387#4512#0" />
+                <element signature="e#4428#4512#0" />
+                <element signature="e#4547#4755#0" />
+                <element signature="e#4588#4709#0" />
+                <element signature="e#4643#4709#0" />
+                <element signature="e#4817#4894#0" />
+                <element signature="e#4984#5668#0" />
+                <element signature="e#5710#5944#0" />
+                <element signature="e#5779#5921#0" />
+                <element signature="e#5832#5921#0" />
+                <element signature="e#6804#9261#0" />
+                <element signature="e#6804#6915#1" />
+                <element signature="e#7297#7472#0" />
+                <element signature="e#7667#9123#0" />
+                <element signature="e#7704#9123#0" />
+                <element signature="e#7734#9123#0" />
+                <element signature="e#7774#9123#0" />
+                <element signature="e#7829#8408#0" />
+                <element signature="e#7963#8408#0" />
+                <element signature="e#8007#8408#0" />
+                <element signature="e#8069#8408#0" />
+                <element signature="e#8467#9123#0" />
+                <element signature="e#8989#9122#0" />
+                <element signature="e#9279#9754#0" />
+                <element signature="e#9416#9737#0" />
+                <element signature="e#9458#9737#0" />
               </folding>
             </state>
           </provider>
@@ -213,32 +216,67 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Training/DataBase.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="625">
-              <caret line="105" column="65" selection-start-line="105" selection-start-column="65" selection-end-line="105" selection-end-column="65" />
+            <state relative-caret-position="596">
+              <caret line="343" lean-forward="true" selection-start-line="343" selection-end-line="343" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
-                <element signature="e#228#652#0" />
-                <element signature="e#688#1005#0" />
-                <element signature="e#1298#1482#0" />
-                <element signature="e#1298#1438#1" />
-                <element signature="e#3516#3520#0" />
-                <marker date="1539135623819" expanded="false" signature="3435:3441" ph="..." />
-                <marker date="1539135623819" expanded="false" signature="3481:3490" ph="..." />
-                <marker date="1539135623819" expanded="true" signature="3648:3720" ph="..." />
+                <element signature="e#1175#3227#0" />
+                <element signature="e#3260#3680#0" />
+                <element signature="e#3717#4033#0" />
+                <element signature="e#4066#4229#0" />
+                <element signature="e#4270#4698#0" />
+                <element signature="e#4742#5066#0" />
+                <element signature="e#5107#5278#0" />
+                <element signature="e#5321#5495#0" />
+                <element signature="e#5599#5774#0" />
+                <element signature="e#6511#6808#0" />
+                <element signature="e#6511#6651#1" />
+                <element signature="e#6879#7781#0" />
+                <element signature="e#6879#7305#1" />
+                <element signature="e#7331#7372#0" />
+                <element signature="e#7236#8992#0" />
+                <element signature="e#8295#8864#0" />
+                <element signature="e#8672#8850#0" />
+                <element signature="e#8908#9224#0" />
+                <element signature="e#9272#9388#0" />
+                <element signature="e#8855#8965#0" />
+                <element signature="e#9471#10170#0" />
+                <element signature="e#9471#9569#1" />
+                <element signature="e#9795#9945#0" />
+                <element signature="e#10301#11148#0" />
+                <element signature="e#11189#11476#0" />
+                <element signature="e#11586#11946#0" />
+                <element signature="e#11680#11946#0" />
+                <element signature="e#11852#11927#0" />
+                <element signature="e#11995#12218#0" />
+                <element signature="e#12283#12873#0" />
+                <element signature="e#12406#12844#0" />
+                <element signature="e#12510#12634#0" />
+                <element signature="e#12669#12844#0" />
+                <element signature="e#12716#12821#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Training/Record.py">
+        <entry file="file://$PROJECT_DIR$/Training/quick_scripts.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="14" column="84" selection-start-line="14" selection-start-column="80" selection-end-line="14" selection-end-column="84" />
+            <state relative-caret-position="594">
+              <caret line="22" column="47" lean-forward="true" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
               <folding>
-                <element signature="e#0#25#0" expanded="true" />
-                <element signature="e#1195#2395#0" />
+                <element signature="e#0#45#0" expanded="true" />
+                <marker date="1539385630442" expanded="true" signature="139:144" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/PIL/Image.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="780">
+              <caret line="1946" selection-start-line="1946" selection-end-line="1946" />
             </state>
           </provider>
         </entry>
@@ -254,20 +292,8 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>self.lock</find>
-      <find>event.key</find>
-      <find>todo</find>
-      <find>print(</find>
-      <find>__name</find>
-      <find>empty</find>
-      <find>getInput</find>
-      <find>self.</find>
-      <find>writer</find>
-      <find>screenPan</find>
-      <find>None</find>
       <find>50</find>
       <find>press</find>
-      <find>print</find>
       <find>screen</find>
       <find>- 2</find>
       <find>SCREEN_CAPTURE_BBOX</find>
@@ -284,6 +310,18 @@
       <find>0x20</find>
       <find>conn</find>
       <find>held</find>
+      <find>COLUMNS</find>
+      <find>not a gre</find>
+      <find>{</find>
+      <find>VALUES</find>
+      <find>AND</find>
+      <find>load</find>
+      <find>remove_double</find>
+      <find>trainableData</find>
+      <find>select_from</find>
+      <find>event_img</find>
+      <find>print(</find>
+      <find>print</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -298,25 +336,28 @@
         <option value="$PROJECT_DIR$/Training/filterRawInputDataTest.py" />
         <option value="$PROJECT_DIR$/Training/Record2.py" />
         <option value="$PROJECT_DIR$/eggs.csv" />
-        <option value="$PROJECT_DIR$/TestingShit.py" />
         <option value="$PROJECT_DIR$/Training/Globals.py" />
-        <option value="$PROJECT_DIR$/Training/Test.py" />
         <option value="$PROJECT_DIR$/Training/TestData/DataBase.py" />
         <option value="$PROJECT_DIR$/Training/TestData/tables.py" />
         <option value="$PROJECT_DIR$/Training/DataBase/manager.py" />
         <option value="$PROJECT_DIR$/Training/DataBase/createTables.py" />
         <option value="$PROJECT_DIR$/Training/DataBase/DataBase.py" />
-        <option value="$PROJECT_DIR$/Training/Record.py" />
         <option value="$PROJECT_DIR$/Training/__init__.py" />
         <option value="$PROJECT_DIR$/Training/UsableEvents.py" />
         <option value="$PROJECT_DIR$/Training/DataBase/largeAssDatabase.db" />
+        <option value="$PROJECT_DIR$/Training/Record.py" />
+        <option value="$PROJECT_DIR$/TestingShit.py" />
+        <option value="$PROJECT_DIR$/Training/images/quick_scripts.py" />
+        <option value="$PROJECT_DIR$/Training/Test.py" />
         <option value="$PROJECT_DIR$/Training/DataBase.py" />
+        <option value="$PROJECT_DIR$/Training/quick_scripts.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="width" value="1291" />
+    <option name="x" value="-1" />
+    <option name="y" value="10" />
+    <option name="width" value="1539" />
     <option name="height" value="1447" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -325,6 +366,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -337,15 +379,21 @@
               <item name="ML_Nick" type="462c0819:PsiDirectoryNode" />
               <item name="Training" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ML_Nick" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ML_Nick" type="462c0819:PsiDirectoryNode" />
+              <item name="Training" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Faster_RCNN" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Faster_RCNN/README.md" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="PyConsoleConfigurable.Python Console" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -374,28 +422,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.DataBase (2)">
-    <configuration name="DataBase (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="ML_Nick" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Training/DataBase" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\rambo\OneDrive\Documents\Programming\Python\PycharmProjects\ML_Nick\Training\DataBase.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.quick_scripts">
     <configuration name="DataBase (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ML_Nick" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -430,6 +457,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Training/Record.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestingShit" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ML_Nick" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TestingShit.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -480,7 +528,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="filterRawInputDataTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="quick_scripts" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ML_Nick" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -492,7 +540,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Training/filterRawInputDataTest.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Training/quick_scripts.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -504,18 +552,18 @@
     <list>
       <item itemvalue="Python.Record" />
       <item itemvalue="Python.UsableEvents" />
-      <item itemvalue="Python.filterRawInputDataTest" />
-      <item itemvalue="Python.DataBase (1)" />
       <item itemvalue="Python.DataBase (2)" />
       <item itemvalue="Python.__init__" />
+      <item itemvalue="Python.TestingShit" />
+      <item itemvalue="Python.quick_scripts" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.quick_scripts" />
         <item itemvalue="Python.DataBase (2)" />
+        <item itemvalue="Python.TestingShit" />
         <item itemvalue="Python.UsableEvents" />
         <item itemvalue="Python.__init__" />
-        <item itemvalue="Python.DataBase (1)" />
-        <item itemvalue="Python.filterRawInputDataTest" />
       </list>
     </recent_temporary>
   </component>
@@ -544,7 +592,21 @@
       <option name="project" value="LOCAL" />
       <updated>1539050320875</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="did some sqlite stuff. very little">
+      <created>1539135657280</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1539135657280</updated>
+    </task>
+    <task id="LOCAL-00004" summary="did some sqlite stuff. very little">
+      <created>1539135732241</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1539135732241</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView">
@@ -560,16 +622,36 @@
     <frame x="-8" y="-8" width="2576" height="1456" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12332545" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09416863" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3245083" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3998477" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3290469" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3260212" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39908606" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32977912" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Python Console" order="9" weight="0.32977912" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Data View" order="3" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19028662" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32980332" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32673267" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39908606" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32977912" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Python Console" order="9" />
@@ -578,14 +660,15 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Data View" order="3" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2nd commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="2nd commit" />
+    <MESSAGE value="did some sqlite stuff. very little" />
+    <option name="LAST_COMMIT_MESSAGE" value="did some sqlite stuff. very little" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -599,9 +682,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Training/Data/Lucian/00002/0000000002.jpg" />
-    <entry file="file://$PROJECT_DIR$/Training/Data/Lucian/00002/0000000003.jpg" />
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/PIL/ImageGrab.py" />
     <entry file="file://$PROJECT_DIR$/Training/Data/Lucian/00001/0000000000.jpg" />
     <entry file="file://$PROJECT_DIR$/Training/Data/Lucian/00001/0000000086.jpg" />
     <entry file="file://$PROJECT_DIR$/Training/Data/Lucian/00004/0000000004.jpg" />
@@ -629,7 +709,6 @@
     <entry file="file://$PROJECT_DIR$/Training/Data/Lucian/00002/0000000000.png" />
     <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/PIL/ImageFile.py" />
     <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/PIL/JpegImagePlugin.py" />
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/PIL/Image.py" />
     <entry file="file://$PROJECT_DIR$/Training/tempReadInput.py" />
     <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/minpy/array.py" />
     <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/mxnet/ndarray/utils.py" />
@@ -660,13 +739,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Training/TestData/tables.db" />
-    <entry file="file://$PROJECT_DIR$/Training/Test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" selection-start-line="1" selection-end-line="3" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Faster_RCNN/keras_frcnn/data_generators.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -674,123 +746,166 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Training/Globals.py" />
-    <entry file="file://$PROJECT_DIR$/Training/filterRawInputDataTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="729">
-          <caret line="70" column="39" lean-forward="true" selection-start-line="70" selection-start-column="34" selection-end-line="70" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Training/DataBase/largeAssDatabase.db" />
-    <entry file="file://$PROJECT_DIR$/TestingShit.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-            <element signature="e#252#943#0" />
-            <element signature="e#252#349#1" />
-            <element signature="e#390#926#0" />
-            <element signature="e#708#902#0" />
-            <element signature="e#741#801#0" />
-            <element signature="e#836#902#0" />
-            <element signature="e#969#1332#0" />
-            <element signature="e#997#1061#0" />
-            <element signature="e#1360#1504#0" />
-            <element signature="e#1531#1862#0" />
-            <element signature="e#1890#2277#0" />
-            <element signature="e#1898#1950#0" />
-            <element signature="e#1975#2277#0" />
-            <element signature="e#2011#2253#0" />
-            <element signature="e#2060#2253#0" />
-            <element signature="e#2095#2197#0" />
-            <element signature="e#2298#2743#0" />
-            <element signature="e#2320#2511#0" />
-            <element signature="e#2786#3325#0" />
-            <element signature="e#3371#4177#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Training/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Training/DataBase/manager.py" />
+    <entry file="file://$PROJECT_DIR$/../League App/tables.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="107" column="21" selection-start-line="107" selection-start-column="21" selection-end-line="107" selection-end-column="21" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../League App/addSummoner.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="999">
           <caret line="38" column="25" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Training/DataBase/manager.py">
+    <entry file="file://$PROJECT_DIR$/Training/UsableEvents.py" />
+    <entry file="file://$PROJECT_DIR$/../Faster_RCNN/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Training/Lucian00010Lost.db">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Training/filterRawInputDataTest.py" />
+    <entry file="file://$PROJECT_DIR$/Training/Test.py" />
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/PIL/Image.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        <state relative-caret-position="780">
+          <caret line="1946" selection-start-line="1946" selection-end-line="1946" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Training/Record.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" column="84" selection-start-line="14" selection-start-column="80" selection-end-line="14" selection-end-column="84" />
+        <state relative-caret-position="225">
+          <caret line="178" selection-start-line="178" selection-end-line="178" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
+            <element signature="e#600#1145#0" />
+            <element signature="e#663#846#0" />
+            <element signature="e#875#1145#0" />
+            <element signature="e#899#1145#0" />
+            <element signature="e#961#1117#0" />
             <element signature="e#1195#2395#0" />
+            <element signature="e#1223#1442#0" />
+            <element signature="e#1471#2127#0" />
+            <element signature="e#1504#2127#0" />
+            <element signature="e#2161#2395#0" />
+            <element signature="e#2441#3807#0" />
+            <element signature="e#2484#2706#0" />
+            <element signature="e#2735#3326#0" />
+            <element signature="e#2768#3326#0" />
+            <element signature="e#2884#3167#0" />
+            <element signature="e#2937#3167#0" />
+            <element signature="e#3362#3807#0" />
+            <element signature="e#3434#3596#0" />
+            <element signature="e#3468#3596#0" />
+            <element signature="e#3658#3784#0" />
+            <element signature="e#3703#3784#0" />
+            <element signature="e#3849#4894#0" />
+            <element signature="e#3877#4149#0" />
+            <element signature="e#3877#3967#1" />
+            <element signature="e#4178#4783#0" />
+            <element signature="e#4295#4783#0" />
+            <element signature="e#4387#4512#0" />
+            <element signature="e#4428#4512#0" />
+            <element signature="e#4547#4755#0" />
+            <element signature="e#4588#4709#0" />
+            <element signature="e#4643#4709#0" />
+            <element signature="e#4817#4894#0" />
+            <element signature="e#4984#5668#0" />
+            <element signature="e#5710#5944#0" />
+            <element signature="e#5779#5921#0" />
+            <element signature="e#5832#5921#0" />
+            <element signature="e#6804#9261#0" />
+            <element signature="e#6804#6915#1" />
+            <element signature="e#7297#7472#0" />
+            <element signature="e#7667#9123#0" />
+            <element signature="e#7704#9123#0" />
+            <element signature="e#7734#9123#0" />
+            <element signature="e#7774#9123#0" />
+            <element signature="e#7829#8408#0" />
+            <element signature="e#7963#8408#0" />
+            <element signature="e#8007#8408#0" />
+            <element signature="e#8069#8408#0" />
+            <element signature="e#8467#9123#0" />
+            <element signature="e#8989#9122#0" />
+            <element signature="e#9279#9754#0" />
+            <element signature="e#9416#9737#0" />
+            <element signature="e#9458#9737#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Training/UsableEvents.py">
+    <entry file="file://$PROJECT_DIR$/TestingShit.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="71" column="53" selection-start-line="71" selection-start-column="53" selection-end-line="71" selection-end-column="53" />
-          <folding>
-            <element signature="e#509#1088#0" />
-            <element signature="e#618#1030#0" />
-            <element signature="e#654#706#0" />
-            <element signature="e#741#1030#0" />
-            <element signature="e#811#984#0" />
-            <element signature="e#1196#1722#0" />
-            <element signature="e#1306#1656#0" />
-            <element signature="e#1342#1398#0" />
-            <element signature="e#1433#1656#0" />
-            <element signature="e#1503#1606#0" />
-            <element signature="e#1833#2428#0" />
-            <element signature="e#1945#2362#0" />
-            <element signature="e#1977#2034#0" />
-            <element signature="e#2069#2362#0" />
-            <element signature="e#2139#2312#0" />
-          </folding>
+        <state relative-caret-position="143">
+          <caret line="94" selection-start-line="94" selection-end-line="95" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../League App/tables.py">
+    <entry file="file://$PROJECT_DIR$/Training/quick_scripts.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="107" column="21" lean-forward="true" selection-start-line="107" selection-start-column="21" selection-end-line="107" selection-end-column="21" />
+        <state relative-caret-position="594">
+          <caret line="22" column="47" lean-forward="true" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
           <folding>
-            <element signature="e#189#2691#0" />
+            <element signature="e#0#45#0" expanded="true" />
+            <marker date="1539385630442" expanded="true" signature="139:144" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Training/DataBase.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="105" column="65" selection-start-line="105" selection-start-column="65" selection-end-line="105" selection-end-column="65" />
+        <state relative-caret-position="596">
+          <caret line="343" lean-forward="true" selection-start-line="343" selection-end-line="343" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
-            <element signature="e#228#652#0" />
-            <element signature="e#688#1005#0" />
-            <element signature="e#1298#1482#0" />
-            <element signature="e#1298#1438#1" />
-            <element signature="e#3516#3520#0" />
-            <marker date="1539135623819" expanded="false" signature="3435:3441" ph="..." />
-            <marker date="1539135623819" expanded="false" signature="3481:3490" ph="..." />
-            <marker date="1539135623819" expanded="true" signature="3648:3720" ph="..." />
+            <element signature="e#1175#3227#0" />
+            <element signature="e#3260#3680#0" />
+            <element signature="e#3717#4033#0" />
+            <element signature="e#4066#4229#0" />
+            <element signature="e#4270#4698#0" />
+            <element signature="e#4742#5066#0" />
+            <element signature="e#5107#5278#0" />
+            <element signature="e#5321#5495#0" />
+            <element signature="e#5599#5774#0" />
+            <element signature="e#6511#6808#0" />
+            <element signature="e#6511#6651#1" />
+            <element signature="e#6879#7781#0" />
+            <element signature="e#6879#7305#1" />
+            <element signature="e#7331#7372#0" />
+            <element signature="e#7236#8992#0" />
+            <element signature="e#8295#8864#0" />
+            <element signature="e#8672#8850#0" />
+            <element signature="e#8908#9224#0" />
+            <element signature="e#9272#9388#0" />
+            <element signature="e#8855#8965#0" />
+            <element signature="e#9471#10170#0" />
+            <element signature="e#9471#9569#1" />
+            <element signature="e#9795#9945#0" />
+            <element signature="e#10301#11148#0" />
+            <element signature="e#11189#11476#0" />
+            <element signature="e#11586#11946#0" />
+            <element signature="e#11680#11946#0" />
+            <element signature="e#11852#11927#0" />
+            <element signature="e#11995#12218#0" />
+            <element signature="e#12283#12873#0" />
+            <element signature="e#12406#12844#0" />
+            <element signature="e#12510#12634#0" />
+            <element signature="e#12669#12844#0" />
+            <element signature="e#12716#12821#0" />
           </folding>
         </state>
       </provider>

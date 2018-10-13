@@ -212,9 +212,9 @@ class SaveData(object):
         csv_writer_input = csv.writer(inputFile, delimiter=",")
         csv_writer_frame = csv.writer(frameFile, delimiter=",")
         csv_writer_screenPan = csv.writer(screenPanFile, delimiter=",")
-        csv_writer_input.writerow(("event", "mouse_x", "mouse_y", "time",
-                                   "event", "mouse_x", "mouse_y", "time"))
-        csv_writer_frame.writerow(("FrameID", "Time"))
+        csv_writer_input.writerow(("event", "mouse_position_press_x", "mouse_position_press_y", "time",
+                                   "event", "mouse_position_release_x", "mouse_position_release_y", "time"))
+        csv_writer_frame.writerow(("id", "start_time"))
         csv_writer_screenPan.writerow(("event", "mouse_x", "mouse_y", "time"))
         for events in self.captured_events:
 

@@ -103,6 +103,17 @@ def csvTest():
     writer()
     reader()
 
+def image_manipulation():
+    e = Image.open("C:/Users/rambo/Desktop/e.jpg", "r").convert("RGBA")
+    e_width, e_hight = e.size
+
+    frame = Image.open("C:/Test/00001/0000002214.jpg").convert("RGBA")
+    f_width, f_height = frame.size
+    bbox = (int(f_width/2-e_width/2),int(f_height/2-e_hight/2),int(f_width/2+e_width/2),int(f_height/2+e_hight/2))
+    print(bbox)
+    frame.paste(e, bbox, e)
+    frame.save("C:/Users/rambo/Desktop/test.png")
+
 class KeyListener(threading.Thread):
     def __init__(self, key, press_time, mouse_position):
         threading.Thread.__init__(self)
@@ -150,4 +161,4 @@ class EventListener(threading.Thread):
 
 
 if __name__ == "__main__":
-    csvTest()
+    image_manipulation()
