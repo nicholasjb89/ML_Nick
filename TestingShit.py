@@ -114,6 +114,53 @@ def image_manipulation():
     frame.paste(e, bbox, e)
     frame.save("C:/Users/rambo/Desktop/test.png")
 
+def image_find(img1, img2):
+    """
+
+    :param img1: PIL.Image()
+    :param img2: PUL.Image()
+    :return: bool()
+    """
+    img_array = np.array(img1.getdata())
+    img_array = img_array.reshape((img1.size[1], img1.size[0]))
+    print(img_array)
+
+    frame_array = np.array(img2.getdata())
+    frame_array = frame_array.reshape((img2.size[1], img2.size[0]))
+    print(frame_array)
+    # find all the indexes of frame that match to top left corner of the img_array
+    img_topLeft_value = img_array[0, 0]
+    print(img_topLeft_value)
+    indexes = []
+    for y in range(frame_array.shape[0]):
+        for x in range(frame_array.shape[1]):
+            if y + img_array.shape[0] <= frame_array.shape[0]:  # will it fit on the Y axis
+                if x + img_array.shape[1] <= frame_array.shape[1]:  # will it fit on the X axis
+                    if img_topLeft_value == frame_array[y, x]:  # is it the right value
+                        indexes.append((y, x))  # ok add the index to the list
+
+    index_arrays = []
+    for index in indexes:
+        print(index)
+        y_array = range(index[0], index[0] + img_array.shape[0])
+        x_array = range(index[1], index[1] + img_array.shape[1])
+        new_list = []
+        for y in y_array:
+            for x in x_array:
+                new_list.append([y, x])
+        index_arrays.append(new_list)
+    test_arrays = []
+    for index in index_arrays:
+        values_list = []
+        for cell in index:
+            value = frame_array[cell[0], cell[1]]
+            values_list.append(value)
+        test_arrays.append(np.array(values_list))
+    for array in test_arrays:
+        if np.array_equal(array, np.array(img1.convert("L").getdata())):
+            print("True")
+            print(img_array)
+
 class KeyListener(threading.Thread):
     def __init__(self, key, press_time, mouse_position):
         threading.Thread.__init__(self)
@@ -161,4 +208,8 @@ class EventListener(threading.Thread):
 
 
 if __name__ == "__main__":
-    image_manipulation()
+    should_work1 = "C:/Users/rambo/OneDrive/Documents/Programming/Python/PycharmProjects/ML_Nick/Training/images/icons/e.jpg"
+    should_work2 = "C:/Users/rambo/Desktop/test/0000000248.jpg"
+    img1 = Image.open("c:/Test/Q.png").convert("L")
+    img2 = Image.open("c:/Test/screenTest.png").convert("L")
+    image_find(img1, img2)

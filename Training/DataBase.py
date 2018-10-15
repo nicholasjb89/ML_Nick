@@ -1,16 +1,19 @@
 import sqlite3 as sql
 import csv
 import os
+import numpy as np
+from PIL import Image
 
 COLUMNS = {"click": ("id", "event", "start_time", "mouse_position_press_x", "mouse_position_press_y",
                      "mouse_position_release_x", "mouse_position_release_y", "total_time", "frame"),
            "screenPan": ("id", "event", "start_time", "mouse_position_x", "mouse_position_y", "frame"),
-           "frame": ("id", "start_time",),
+           "frame": ("id", "start_time", "path"),
            "click_archive": ("id", "event", "start_time", "mouse_position_press_x", "mouse_position_press_y",
                      "mouse_position_release_x", "mouse_position_release_y", "total_time", "frame"),
            "screenPan_archive": ("id", "event", "start_time", "mouse_position_x", "mouse_position_y", "frame"),
-           "frame_archive": ("id", "start_time",),
-           "humaninterface": ("id", "string", "path")
+           "frame_archive": ("id", "start_time", "path"),
+           "humaninterface": ("id", "string", "path"),
+           "usedAbilityIcon": ("id", "string", "path")
            }
 
 RECORDED_KEYS = { 0x01: "leftclick", 0x02 : "rightclick",
@@ -112,7 +115,8 @@ def create_table_screenPan(c):
 def create_table_frame(c):
     c.execute("""CREATE TABLE IF NOT EXISTS frame(
                     id TEXT PRIMARY KEY,
-                    start_time REAL)
+                    start_time REAL,
+                    path TEXT)
                    """
               )
 
@@ -147,7 +151,8 @@ def create_table_screePan_archive(c):
 def create_table_frame_archive(c):
     c.execute("""CREATE TABLE IF NOT EXISTS frame_archive(
                     id TEXT PRIMARY KEY,
-                    start_time REAL)
+                    start_time REAL,
+                    path TEXT)
                    """
               )
 
@@ -169,18 +174,19 @@ def create_table_used_ability_icon(c):
 
 
 class DataBase(object):
-    def __init__(self, dbname):
+    def __init__(self, path, name):
         """
 
         :param clicks: list() (Click,...)
         :param pans: list() (Pans,...)
         :param frames: list() (list(),...)
         """
-        conn = sql.connect(dbname+".db")
+        conn = sql.connect(path + ".db")
         c = conn.cursor()
         c.execute("PRAGMA foreign_keys = ON")
         self.c = c
         self.conn = conn
+        self.path = path
 
     def _insert_into(self, table_name, values, batch=False):
         """
@@ -202,7 +208,7 @@ class DataBase(object):
         if not batch:  # if im only doing a couple just commit after each insert
             self.conn.commit()
 
-    def new(self, clicks, pans, frames, inputImagesPath):
+    def new(self, clicks, pans, frames, inputImagesPath, usedAbilitiesPath):
         create_table_screenPan(self.c)
         create_table_frame(self.c)
         create_table_click(self.c)
@@ -236,16 +242,20 @@ class DataBase(object):
             while self.frames[i][1] < time:
                 i += 1
             frame = self.frames[i][0]
-            self._insert_into("screenPan", (event, mouse_x, mouse_y, time, frame), batch=True)
+            self._insert_into("screenPan", (event, time, mouse_x, mouse_y, frame), batch=True)
 
         for frame in self.frames:
             id = frame[0]
             start_time = frame[1]
-            self._insert_into("frame", (id, start_time), batch=True)
-
+            self._insert_into("frame", (id, start_time, self.path), batch=True)
+        #humanInterface
         for path in os.listdir(inputImagesPath):
             value = os.path.basename(path)[0:-4]
             self._insert_into("humaninterface", (value, inputImagesPath))
+        #usedAbility
+        for path in os.listdir(usedAbilitiesPath):
+            value = os.path.basename(path)[0:-4]
+            self._insert_into("usedAbilityIcon", (value, usedAbilitiesPath))
         self.conn.commit()
 
     def remove_from(self, table, conditions):
@@ -268,7 +278,7 @@ class DataBase(object):
         self.c.execute(conditionsText)
         self.conn.commit()
 
-    def select_from(self, table_name, columns="*", conditions=None): #todo this might be returning 0 instead of 00000...
+    def select_from(self, table_name, columns="*", conditions=None):
         """
 
         :param table_name: String()
@@ -323,6 +333,35 @@ class DataBase(object):
         for double in double_leftClick:
             self.remove_from("click", {"id": double[0][0]})
 
+    def remove_on_cd(self):
+        def img1_in_img2(img1, img2):
+            """
+
+            :param img1: Image()
+            :param img2: Image()
+            :return: Bool()
+            """
+            img1_list = list(img1.getdata())
+            img2_list = list(img2.getdata())
+            print(len(img1_list))
+            return False
+            # todo Finish this.
+            # get a list for img1 and img2
+            # then search the 2nd list for any occurrence of the first list
+
+        icons = self.select_from("usedAbilityIcon")
+        icon_dict = {}
+        for icon in icons:
+            img = Image.open(icon[2] + "/" + icon[1] + ".jpg")
+            icon_dict[icon[1]] = img
+        q_list = self.select_from("click", conditions={"event": "81"}) #finds all Q's
+        for q in q_list:
+            frame = self.select_from("frame", conditions={"id": str(q[8])})[0]
+            img = Image.open(frame[2]+"/"+frame[0]+".jpg")
+            icon_img = icon_dict["Q"]
+            if img1_in_img2(icon_img,img):
+                print("yes")
+
     def find_double_clicks(self, column, value="all"):
         clicks = self.select_from("click")
         double_clicks = []
@@ -343,16 +382,37 @@ class DataBase(object):
 
 
 if __name__ == "__main__":
-    frame_path, screen_path, userInput_path = "c:/Test/Lucian00010Lost/frame.csv", "c:/Test/Lucian00010Lost/ScreenPan.csv", "c:/Test/Lucian00010Lost/input.csv"
+    path = "C:/Users/rambo/Desktop/SavedGames/Lucian00001Lost/"
+    frame_path, screen_path, userInput_path = path + "frame.csv", path + "ScreenPan.csv", path + "input.csv"
     frames, pans, clicks = all_data(frame_path, screen_path, userInput_path)
-    dataBase = DataBase("Lucian00010Lost")
-    # dataBase.new(clicks, pans, frames, "C:/Users/rambo/OneDrive/Documents/Programming/Python/PycharmProjects/ML_Nick/Training/images/Human Interface")
+    dataBase = DataBase(path, "Lucian00001Lost")
+    humanInterfacePath = "C:/Users/rambo/OneDrive/Documents/Programming/Python/PycharmProjects/ML_Nick/Training/images/Human Interface"
+    usedAbilitiesPath = "C:/Users/rambo/OneDrive/Documents/Programming/Python/PycharmProjects/ML_Nick/Training/images/icons"
+    # dataBase.new(clicks, pans, frames, humanInterfacePath, usedAbilitiesPath)
 
     num_clicks = dataBase.select_from("click")
     # dataBase.remove_multi_a()
     # dataBase.remove_click_a()
     # dataBase.remove_double_leftClick()
-    for frame, start_time in dataBase.select_from("frame"):
-        print(frame, start_time)
+    for frame, start_time, path in dataBase.select_from("frame"):
+        print(frame, start_time, path)
     for key in RECORDED_KEYS.keys():
         print(key, RECORDED_KEYS[key])
+
+    print(dataBase.remove_on_cd())
+
+"""
+    Trying to add new Table?
+        create the table function
+            def create_new_table_tableName(c)
+        add it to the COLUMNS dictionary
+        add it to DataBase.new()
+        runDataBase.new(with the new table data)
+        
+    Trying to modify and existing Table?
+        modify def create_table_tableName
+        modify COLUMNS to match the new data
+        run DataBase.new()
+        
+"""
+
