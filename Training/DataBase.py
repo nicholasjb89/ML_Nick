@@ -352,12 +352,12 @@ class DataBase(object):
         icons = self.select_from("usedAbilityIcon")
         icon_dict = {}
         for icon in icons:
-            img = Image.open(icon[2] + "/" + icon[1] + ".jpg")
+            img = Image.open(icon[2] + "/" + icon[1] + ".png")
             icon_dict[icon[1]] = img
         q_list = self.select_from("click", conditions={"event": "81"}) #finds all Q's
         for q in q_list:
             frame = self.select_from("frame", conditions={"id": str(q[8])})[0]
-            img = Image.open(frame[2]+"/"+frame[0]+".jpg")
+            img = Image.open(frame[2]+"/"+frame[0]+".png")
             icon_img = icon_dict["Q"]
             if img1_in_img2(icon_img,img):
                 print("yes")

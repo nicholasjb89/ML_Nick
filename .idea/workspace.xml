@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd5f127c-8d88-43ad-a524-5a4a42600036" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Training/ImageLocator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestingShit.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestingShit.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Training/DataBase.py" beforeDir="false" afterPath="$PROJECT_DIR$/Training/DataBase.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Training/quick_scripts.py" beforeDir="false" afterPath="$PROJECT_DIR$/Training/quick_scripts.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Training/Record.py" beforeDir="false" afterPath="$PROJECT_DIR$/Training/Record.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,13 +59,13 @@
     <session id="1546206412">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="32" />
+          <entry key="project.closed" value="33" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.2" value="8" />
           <entry key="project.open.time.3" value="18" />
-          <entry key="project.open.time.4" value="9" />
+          <entry key="project.open.time.4" value="11" />
           <entry key="project.open.time.6" value="2" />
-          <entry key="project.opened" value="39" />
+          <entry key="project.opened" value="41" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -76,7 +75,7 @@
           <entry key="Image" value="13" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="10" />
-          <entry key="Python" value="84" />
+          <entry key="Python" value="87" />
           <entry key="SQL" value="7" />
           <entry key="XML" value="1" />
         </counts>
@@ -89,7 +88,7 @@
           <entry key="jpg" value="5" />
           <entry key="md" value="1" />
           <entry key="png" value="8" />
-          <entry key="py" value="84" />
+          <entry key="py" value="87" />
           <entry key="txt" value="2" />
           <entry key="xml" value="1" />
         </counts>
@@ -100,15 +99,15 @@
           <entry key="csv" value="4" />
           <entry key="db" value="2" />
           <entry key="dummy" value="133" />
-          <entry key="py" value="58186" />
-          <entry key="txt" value="93" />
+          <entry key="py" value="59696" />
+          <entry key="txt" value="135" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSV" value="1" />
-          <entry key="PLAIN_TEXT" value="229" />
-          <entry key="Python" value="59596" />
+          <entry key="PLAIN_TEXT" value="271" />
+          <entry key="Python" value="61106" />
           <entry key="SQL" value="2" />
         </counts>
       </usages-collector>
@@ -120,8 +119,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TestingShit.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="564">
-              <caret line="216" column="51" lean-forward="true" selection-start-line="216" selection-start-column="51" selection-end-line="216" selection-end-column="51" />
+            <state relative-caret-position="198">
+              <caret line="120" column="85" selection-start-line="120" selection-start-column="85" selection-end-line="120" selection-end-column="85" />
               <folding>
                 <element signature="e#0#48#0" expanded="true" />
                 <element signature="e#252#943#0" />
@@ -134,20 +133,27 @@
                 <element signature="e#997#1061#0" />
                 <element signature="e#1360#1504#0" />
                 <element signature="e#1531#1862#0" />
-                <element signature="e#1890#2277#0" />
-                <element signature="e#1898#1950#0" />
-                <element signature="e#1975#2277#0" />
-                <element signature="e#2011#2253#0" />
-                <element signature="e#2060#2253#0" />
-                <element signature="e#2095#2197#0" />
-                <element signature="e#2298#2743#0" />
-                <element signature="e#2320#2511#0" />
-                <element signature="e#2539#2717#0" />
-                <element signature="e#2775#3188#0" />
-                <element signature="e#4219#5025#0" />
-                <marker date="1539562974535" expanded="true" signature="3217:5075" ph="..." />
-                <marker date="1539562974535" expanded="false" signature="5111:5116" ph="..." />
+                <element signature="e#3226#3316#1" />
+                <element signature="e#3862#4268#0" />
+                <element signature="e#3912#4268#0" />
+                <element signature="e#4008#4268#0" />
+                <element signature="e#4108#4268#0" />
+                <element signature="e#4256#4533#0" />
+                <element signature="e#4554#4611#0" />
+                <element signature="e#4639#4820#0" />
+                <element signature="e#4766#4841#0" />
+                <element signature="e#4927#5014#0" />
+                <element signature="e#5278#5316#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/numpy/lib/function_base.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="363">
+              <caret line="4786" selection-start-line="4786" selection-end-line="4786" />
             </state>
           </provider>
         </entry>
@@ -155,8 +161,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Training/Record.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+            <state relative-caret-position="414">
+              <caret line="203" column="19" lean-forward="true" selection-start-line="203" selection-start-column="19" selection-end-line="203" selection-end-column="19" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
                 <element signature="e#600#1145#0" />
@@ -191,29 +197,20 @@
                 <element signature="e#4588#4709#0" />
                 <element signature="e#4643#4709#0" />
                 <element signature="e#4817#4894#0" />
-                <element signature="e#4925#9261#0" />
-                <element signature="e#4984#5668#0" />
                 <element signature="e#5710#5944#0" />
                 <element signature="e#5779#5921#0" />
                 <element signature="e#5832#5921#0" />
                 <element signature="e#5979#6226#0" />
-                <element signature="e#6804#9261#0" />
-                <element signature="e#6804#6915#1" />
-                <element signature="e#7297#7472#0" />
-                <element signature="e#7667#9123#0" />
-                <element signature="e#7704#9123#0" />
-                <element signature="e#7734#9123#0" />
-                <element signature="e#7774#9123#0" />
-                <element signature="e#7829#8408#0" />
-                <element signature="e#7963#8408#0" />
-                <element signature="e#8007#8408#0" />
-                <element signature="e#8069#8408#0" />
-                <element signature="e#8467#9123#0" />
-                <element signature="e#8989#9122#0" />
-                <element signature="e#9279#9754#0" />
-                <element signature="e#9416#9737#0" />
-                <element signature="e#9458#9737#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/PIL/Image.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="807">
+              <caret line="1949" selection-start-line="1949" selection-end-line="1949" />
             </state>
           </provider>
         </entry>
@@ -221,8 +218,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Training/DataBase.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10395">
-              <caret line="389" column="24" selection-start-line="389" selection-start-column="24" selection-end-line="389" selection-end-column="124" />
+            <state relative-caret-position="10827">
+              <caret line="405" column="33" selection-start-line="405" selection-start-column="33" selection-end-line="405" selection-end-column="33" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -233,8 +230,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Training/quick_scripts.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="27" column="49" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
+            <state relative-caret-position="302">
+              <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
               <folding>
                 <element signature="e#0#44#0" expanded="true" />
               </folding>
@@ -253,10 +250,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>TIME_BLOCK</find>
-      <find>True</find>
-      <find>E</find>
-      <find>leftDown</find>
       <find>A True</find>
       <find>SPace</find>
       <find>A False</find>
@@ -281,8 +274,12 @@
       <find>-1</find>
       <find>222 186 190</find>
       <find>222</find>
-      <find>222</find>
+      <find>.jpg</find>
+      <find>convert</find>
+      <find>True</find>
+      <find>237  28</find>
       <find>print</find>
+      <find>True</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -306,23 +303,24 @@
         <option value="$PROJECT_DIR$/Training/__init__.py" />
         <option value="$PROJECT_DIR$/Training/UsableEvents.py" />
         <option value="$PROJECT_DIR$/Training/DataBase/largeAssDatabase.db" />
-        <option value="$PROJECT_DIR$/Training/Record.py" />
         <option value="$PROJECT_DIR$/Training/images/quick_scripts.py" />
         <option value="$PROJECT_DIR$/Training/Test.py" />
         <option value="$PROJECT_DIR$/Training/quick_scripts.py" />
-        <option value="$PROJECT_DIR$/Training/DataBase.py" />
         <option value="$PROJECT_DIR$/Training/ImageLocator.py" />
         <option value="$USER_HOME$/Desktop/FFXIV BOT/ImageLocator.py" />
         <option value="$USER_HOME$/Desktop/ImageLocator.py" />
         <option value="$USER_HOME$/Desktop/ImageLocator - Copy.py" />
+        <option value="$PROJECT_DIR$/Training/DataBase.py" />
+        <option value="$PROJECT_DIR$/Training/Record.py" />
         <option value="$PROJECT_DIR$/TestingShit.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="893" />
-    <option name="width" value="1539" />
-    <option name="height" value="1447" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="683" />
+    <option name="y" value="291" />
+    <option name="width" value="974" />
+    <option name="height" value="1087" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -330,7 +328,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -353,6 +350,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -580,7 +578,14 @@
       <option name="project" value="LOCAL" />
       <updated>1539400454748</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added image_find to the data under quick_scripts must convert to .png to use">
+      <created>1539563487743</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1539563487743</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView">
@@ -593,8 +598,29 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="893" y="0" width="1539" height="1447" extended-state="0" />
+    <frame x="-8" y="-8" width="2576" height="1456" extended-state="6" />
+    <editor active="true" />
     <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12411348" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3290469" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32299545" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39832446" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32977912" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32977912" />
+      <window_info anchor="bottom" id="Python Console" order="9" weight="0.33130237" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Data View" order="3" />
+    </layout>
+    <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09327115" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -613,26 +639,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Data View" order="3" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.093774624" />
-      <window_info id="Structure" order="1" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3290469" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3214826" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39908606" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32977912" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Python Console" order="9" weight="0.5680787" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Data View" order="3" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -642,7 +648,8 @@
     <MESSAGE value="2nd commit" />
     <MESSAGE value="did some sqlite stuff. very little" />
     <MESSAGE value="added visuals to the data under quick_scripts" />
-    <option name="LAST_COMMIT_MESSAGE" value="added visuals to the data under quick_scripts" />
+    <MESSAGE value="added image_find to the data under quick_scripts must convert to .png to use" />
+    <option name="LAST_COMMIT_MESSAGE" value="added image_find to the data under quick_scripts must convert to .png to use" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -656,7 +663,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Training/Data/Lucian/00007/0000000001.png" />
     <entry file="file://$PROJECT_DIR$/Training/Data/Lucian/00002/0000000000.csv" />
     <entry file="file://$PROJECT_DIR$/Training/Data/Lucian/00002/0000000001.csv" />
     <entry file="file://$PROJECT_DIR$/Training/Data/Lucian/000010/0000000000.png" />
@@ -668,7 +674,6 @@
     <entry file="file://$PROJECT_DIR$/Training/Data/Lucian/00001/0000000000.png" />
     <entry file="file://$PROJECT_DIR$/Training/Data/Lucian/00002/0000000000.png" />
     <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/PIL/ImageFile.py" />
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/PIL/JpegImagePlugin.py" />
     <entry file="file://$PROJECT_DIR$/Training/tempReadInput.py" />
     <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/minpy/array.py" />
     <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/mxnet/ndarray/utils.py" />
@@ -750,10 +755,73 @@
     <entry file="file://$PROJECT_DIR$/Training/images/icons/E.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/numpy/core/numeric.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="533">
+          <caret line="2405" lean-forward="true" selection-start-line="2405" selection-end-line="2405" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/FFXIV BOT/ImageLocator.py" />
+    <entry file="file://$USER_HOME$/Desktop/ImageLocator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="823">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/ImageLocator - Copy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="57" column="42" lean-forward="true" selection-start-line="57" selection-start-column="42" selection-end-line="57" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Training/ImageLocator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Training/DataBase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10827">
+          <caret line="405" column="33" selection-start-line="405" selection-start-column="33" selection-end-line="405" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Training/quick_scripts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/PIL/Image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="807">
+          <caret line="1949" selection-start-line="1949" selection-end-line="1949" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/PIL/JpegImagePlugin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="622" selection-start-line="622" selection-end-line="622" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Training/Record.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+        <state relative-caret-position="414">
+          <caret line="203" column="19" lean-forward="true" selection-start-line="203" selection-start-column="19" selection-end-line="203" selection-end-column="19" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
             <element signature="e#600#1145#0" />
@@ -788,154 +856,25 @@
             <element signature="e#4588#4709#0" />
             <element signature="e#4643#4709#0" />
             <element signature="e#4817#4894#0" />
-            <element signature="e#4925#9261#0" />
-            <element signature="e#4984#5668#0" />
             <element signature="e#5710#5944#0" />
             <element signature="e#5779#5921#0" />
             <element signature="e#5832#5921#0" />
             <element signature="e#5979#6226#0" />
-            <element signature="e#6804#9261#0" />
-            <element signature="e#6804#6915#1" />
-            <element signature="e#7297#7472#0" />
-            <element signature="e#7667#9123#0" />
-            <element signature="e#7704#9123#0" />
-            <element signature="e#7734#9123#0" />
-            <element signature="e#7774#9123#0" />
-            <element signature="e#7829#8408#0" />
-            <element signature="e#7963#8408#0" />
-            <element signature="e#8007#8408#0" />
-            <element signature="e#8069#8408#0" />
-            <element signature="e#8467#9123#0" />
-            <element signature="e#8989#9122#0" />
-            <element signature="e#9279#9754#0" />
-            <element signature="e#9416#9737#0" />
-            <element signature="e#9458#9737#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Training/DataBase.py">
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/numpy/lib/function_base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10395">
-          <caret line="389" column="24" selection-start-line="389" selection-start-column="24" selection-end-line="389" selection-end-column="124" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Training/quick_scripts.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="27" column="49" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
-          <folding>
-            <element signature="e#0#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/PIL/Image.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69498">
-          <caret line="2579" selection-start-line="2579" selection-end-line="2579" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/numpy/core/numeric.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="533">
-          <caret line="2405" lean-forward="true" selection-start-line="2405" selection-end-line="2405" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/FFXIV BOT/ImageLocator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="121" column="16" selection-start-line="121" selection-start-column="16" selection-end-line="121" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-            <element signature="e#99#768#0" />
-            <element signature="e#136#257#0" />
-            <element signature="e#305#411#0" />
-            <element signature="e#322#370#0" />
-            <element signature="e#460#692#0" />
-            <element signature="e#526#667#0" />
-            <element signature="e#573#667#0" />
-            <element signature="e#733#768#0" />
-            <element signature="e#805#930#0" />
-            <element signature="e#839#930#0" />
-            <element signature="e#958#3658#0" />
-            <element signature="e#986#990#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/ImageLocator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="823">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-            <element signature="e#99#768#0" />
-            <element signature="e#136#257#0" />
-            <element signature="e#305#411#0" />
-            <element signature="e#322#370#0" />
-            <element signature="e#460#692#0" />
-            <element signature="e#526#667#0" />
-            <element signature="e#573#667#0" />
-            <element signature="e#733#768#0" />
-            <element signature="e#805#930#0" />
-            <element signature="e#839#930#0" />
-            <element signature="e#986#990#0" />
-            <element signature="e#2044#2173#0" />
-            <element signature="e#2240#3658#0" />
-            <element signature="e#2442#2634#0" />
-            <element signature="e#2805#3009#0" />
-            <element signature="e#3121#3628#0" />
-            <element signature="e#3169#3493#0" />
-            <element signature="e#3394#3493#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/ImageLocator - Copy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="57" column="42" lean-forward="true" selection-start-line="57" selection-start-column="42" selection-end-line="57" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-            <element signature="e#100#769#0" />
-            <element signature="e#137#258#0" />
-            <element signature="e#306#412#0" />
-            <element signature="e#323#371#0" />
-            <element signature="e#461#693#0" />
-            <element signature="e#527#668#0" />
-            <element signature="e#574#668#0" />
-            <element signature="e#734#769#0" />
-            <element signature="e#806#931#0" />
-            <element signature="e#840#931#0" />
-            <element signature="e#987#991#0" />
-            <element signature="e#2045#2174#0" />
-            <element signature="e#2241#3659#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Training/ImageLocator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-            <marker date="1539537778666" expanded="true" signature="1867:1876" ph="..." />
-          </folding>
+        <state relative-caret-position="363">
+          <caret line="4786" selection-start-line="4786" selection-end-line="4786" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TestingShit.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="564">
-          <caret line="216" column="51" lean-forward="true" selection-start-line="216" selection-start-column="51" selection-end-line="216" selection-end-column="51" />
+        <state relative-caret-position="198">
+          <caret line="120" column="85" selection-start-line="120" selection-start-column="85" selection-end-line="120" selection-end-column="85" />
           <folding>
             <element signature="e#0#48#0" expanded="true" />
             <element signature="e#252#943#0" />
@@ -948,19 +887,17 @@
             <element signature="e#997#1061#0" />
             <element signature="e#1360#1504#0" />
             <element signature="e#1531#1862#0" />
-            <element signature="e#1890#2277#0" />
-            <element signature="e#1898#1950#0" />
-            <element signature="e#1975#2277#0" />
-            <element signature="e#2011#2253#0" />
-            <element signature="e#2060#2253#0" />
-            <element signature="e#2095#2197#0" />
-            <element signature="e#2298#2743#0" />
-            <element signature="e#2320#2511#0" />
-            <element signature="e#2539#2717#0" />
-            <element signature="e#2775#3188#0" />
-            <element signature="e#4219#5025#0" />
-            <marker date="1539562974535" expanded="true" signature="3217:5075" ph="..." />
-            <marker date="1539562974535" expanded="false" signature="5111:5116" ph="..." />
+            <element signature="e#3226#3316#1" />
+            <element signature="e#3862#4268#0" />
+            <element signature="e#3912#4268#0" />
+            <element signature="e#4008#4268#0" />
+            <element signature="e#4108#4268#0" />
+            <element signature="e#4256#4533#0" />
+            <element signature="e#4554#4611#0" />
+            <element signature="e#4639#4820#0" />
+            <element signature="e#4766#4841#0" />
+            <element signature="e#4927#5014#0" />
+            <element signature="e#5278#5316#0" />
           </folding>
         </state>
       </provider>

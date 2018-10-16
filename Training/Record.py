@@ -189,7 +189,7 @@ class SaveData(object):
     def save(self, userInput, resize=False):
         newFileName = "0"*(self.file_integerCount-len(str(self.file_number)))
         newFileName += str(self.file_number)
-        newFileName += ".jpg"
+        newFileName += ".png"
         self.captured_events.append(userInput)
         self.frame_index_time.append((newFileName[0:-4], time.time()))
         self.file_number += 1
@@ -197,9 +197,9 @@ class SaveData(object):
         img = ImageGrab.grab(SCREEN_CAPTURE_BBOX)
         if resize:
             img = img.resize((800, 450))
-        img = img.convert(mode="L")
+        img = img.convert(mode="RGBA")
 
-        img.save(self.directory+newFileName, "JPEG")
+        img.save(self.directory+newFileName)
 
     def quit(self):
         """
